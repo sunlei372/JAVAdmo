@@ -17,7 +17,8 @@ public class AsaDemo {
 		people2.Smoking(people2);
 		people2.Eatting(people2);
    
-		System.out.println("表演结束1");
+		System.out.println("表演结束");
+		System.out.println("测试github");
 
 	}
 
