@@ -18,7 +18,7 @@ public class AsaDemo {
 		people2.Eatting(people2);
    
 		System.out.println("±íÑİ½áÊø");
-		System.out.println("²âÊÔgithub");
+		System.out.println("²âÊÔgithub1");
 
 	}
 
