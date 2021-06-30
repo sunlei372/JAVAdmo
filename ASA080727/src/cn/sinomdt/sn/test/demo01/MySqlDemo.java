@@ -11,11 +11,10 @@ public class MySqlDemo {
 		   String url="jdbc:sqlserver://localhost:1433;DatabaseName=aaa";
 		   Connection conn=DriverManager.getConnection(url, "sa", "123456");
 		   if (conn!=null) {
-			System.out.println("连接成功");
+			System.out.println("连接成功 ");
 		}else {
-			System.out.println("连接失败");
+			System.out.println("连接失败 ");
 		}
-		   
 	} catch (ClassNotFoundException e) {
 		// TODO: handle exception
 		e.printStackTrace();
