@@ -8,8 +8,8 @@ public class MySqlDemo {
   public void DemoMeth(){
 	 try {
 		 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-		   String url="jdbc:sqlserver://localhost:1433;DatabaseName=SN";
-		   Connection conn=DriverManager.getConnection(url, "sa", "never!again");
+		   String url="jdbc:sqlserver://localhost:1433;DatabaseName=aaa";
+		   Connection conn=DriverManager.getConnection(url, "sa", "123456");
 		   if (conn!=null) {
 			System.out.println("连接成功");
 		}else {
